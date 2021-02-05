@@ -2,17 +2,18 @@ body
 {
     text-align: center;
     background: linear-gradient ( #E1BEE7 0%, #90CAF9 100%);
-    background-repeat: no-repeat;
-}
+    }
 img
 {
     border-radius: 50%;
-    width:500px;
+    width:500;
+    height:300;
 }
 p
 {
     font-size: 20px;
     color:brown;
+    text-align: center;
 }
 h1
 {
@@ -30,6 +31,35 @@ h1
     cursor: pointer;
     color: black;
 }
+li{
+	display: inline;
+	padding-right: 10px;
+}
+
 li:hover{
   color:darkslategrey;
 }
+.parallax-inner
+{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align:middle;
+}
+.link {
+    display: inline;
+    color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family:fantasy;
+    font-size: 20px
+}
+#welcome
+{
+     padding:70px;
+    text-align:center:
+}
+        
+        
